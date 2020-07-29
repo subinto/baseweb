@@ -19,7 +19,7 @@ public class CommonCrolling {
         return sdf.format(new Date());
     }
    
-    public static void readOkjspJob(int num) {
+    public static void readView(int num) {
         try {
 //            System.out.println("############################################## Start Time : " + getCurrentData());
             // 1. URL 선언
@@ -55,7 +55,7 @@ public class CommonCrolling {
     }
     public static void main(String[] args) {
     	for(int i = 0 ; i < 1 ; i++) {
-    		readOkjspJob(i);
+    		readView(i);
     	}
     }
 }
