@@ -23,8 +23,7 @@ public class CommonCrolling {
         try {
 //            System.out.println("############################################## Start Time : " + getCurrentData());
             // 1. URL 선언
-            //String connUrl = "https://okky.kr/articles/jobs?offset=" + 20 * num + "&max=20&sort=id&order=desc";
-            String connUrl = "http://df.nexon.com/";
+            String connUrl = "https://okky.kr/articles/jobs?offset=" + 20 * num + "&max=20&sort=id&order=desc";
             
 //            System.out.println("Read Url : " + connUrl);
             // 2. HTML 가져오기
